@@ -1,0 +1,25 @@
+.shared-bluebooks-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.shared-bluebooks-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shared-bluebooks-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shared-bluebook {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bluebook-detail {
+    margin-bottom: 5px;
+}

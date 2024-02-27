@@ -1,0 +1,90 @@
+/* License.css */
+
+.license-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.license-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.license-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.license-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.license-name:hover {
+  background-color: #e0e0e0;
+}
+
+.license-image {
+  width: 100%;
+  max-height: 200px; /* Set maximum height to fit within the license card */
+  object-fit: contain; /* Ensure the entire image is visible */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.zoom {
+  z-index: 1;
+  transform: scale(1.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.no-licenses {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-license-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.create-license-link:hover {
+  background-color: #0056b3;
+}
+
+/* Add this style for the delete button */
+.license-card button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.license-card button:hover {
+  background-color: #d32f2f;
+}
+.status-message {
+  color: #d32f2f;
+}

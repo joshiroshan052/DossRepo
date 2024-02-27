@@ -1,0 +1,71 @@
+/* BluebookDetails.css */
+
+.bluebook-details {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bluebook-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bluebook-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[readonly] {
+    background-color: #f5f5f5;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-group button[type="button"] {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .button-group button[type="button"]:hover {
+    background-color: #d32f2f;
+  }
+  
+  .button-group button[type="button"]:last-child {
+    background-color: #4caf50;
+  }
+  
+  .button-group button[type="button"]:last-child:hover {
+    background-color: #388e3c;
+  }
+  
+  

@@ -1,0 +1,99 @@
+/* AdminLicense.css */
+
+.admin-license {
+    padding: 20px;
+  }
+  
+  .license-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .license-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .license-details {
+    padding: 20px;
+  }
+  
+  .license-details h3 {
+    margin-top: 0;
+  }
+  
+  .license-image img {
+    max-width: 100%;
+    object-fit: contain; /* Ensure the entire image is visible */
+    max-height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer; /* Add cursor pointer to indicate the image is clickable */
+  }
+  
+  .button-container-license {
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .approve-button-license,
+  .reject-button-license {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-button-license {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .reject-button-license {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Styles for full-size image overlay */
+  .full-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .full-image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+  /* Styles for full-size image overlay */
+.full-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .full-image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    object-fit: contain; /* Fits the image inside the container while maintaining its aspect ratio */
+  }  

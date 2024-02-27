@@ -1,0 +1,46 @@
+/* BluebookComponent.css */
+
+.bluebook-container-comp {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .bluebook-box {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .share-bluebook {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text */
+  }
+  
+  .view-bluebook {
+    background-color: #2ecc71; /* Green color */
+    color: #fff; /* White text */
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #fff; /* White button */
+    color: #3498db; /* Blue text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3498db; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+  }
+  

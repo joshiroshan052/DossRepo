@@ -1,0 +1,87 @@
+/* Bluebook.css */
+
+.bluebook-container {
+  padding: 20px;
+}
+
+.bluebook-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.no-bluebooks {
+  text-align: center;
+}
+
+.no-bluebooks p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.create-bluebook-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.create-bluebook-link:hover {
+  background-color: #0056b3;
+}
+
+.bluebook-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.bluebook-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.bluebook-info {
+  margin-bottom: 5px;
+}
+
+.view-details-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.view-details-link:hover {
+  background-color: #218838;
+}
+
+.delete-button,
+.update-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.delete-button:hover,
+.update-button:hover {
+  background-color: #c82333;
+}
+
+.blur-content {
+  filter: blur(3px);
+}
+
+.admin-approval-message {
+  color: red;
+}

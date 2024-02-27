@@ -1,0 +1,35 @@
+.admin-dash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-dash-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dash-section h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .admin-dash-section p {
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .admin-dash-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .admin-dash-section a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,138 @@
+/* Search.css */
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.form-control {
+  flex: 1;
+}
+
+.btn-primary {
+  margin-left: 10px;
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-result-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.search-result-details {
+  margin-left: 10px;
+}
+
+.search-result-details h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-result-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.follow-button {
+  margin-left: auto;
+}
+
+.follows {
+  background-color: transparent;
+  border: 1px solid #3897f0;
+  color: #3897f0;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follows:focus {
+  outline: none;
+}
+
+.follows:hover {
+  background-color: #3897f0;
+  color: #fff;
+}
+
+.unfollow {
+  background-color: #3897f0;
+  color: #fff;
+}
+
+.side-content {
+  margin-top: 20px;
+}
+
+.followed-users-border {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.followed-users h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.followed-users .search-result-item {
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-container {
+    padding: 10px;
+  }
+}
